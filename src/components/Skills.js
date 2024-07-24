@@ -39,19 +39,19 @@ return (
                     <p>I am proficient in a wide range of programming languages and frameworks, with a strong focus on AI development and software development. My skill set includes expertise in JavaScript, TypeScript, React, Node.js, and Redux for front-end and back-end development.</p>
                     <Carousel responsive={responsive} infinite={true} className="skill-slider">
                         <div className="item">
-                            <img src={meter1} alt="Image" />
+                            <img src={meter1} alt="skill" />
                             <h5>Web Development</h5>
                         </div>
                         <div className="item">
-                            <img src={meter3} alt="Image" />
+                            <img src={meter3} alt="skill" />
                             <h5>Andriod App Development</h5>
                         </div>
                         <div className="item">
-                            <img src={meter2} alt="Image" />
+                            <img src={meter2} alt="skill" />
                             <h5>UI/UX Design</h5>
                         </div>
                         <div className="item">
-                            <img src={meter1} alt="Image" />
+                            <img src={meter1} alt="skill" />
                             <h5>Team Work</h5>
                         </div>
 
@@ -60,7 +60,7 @@ return (
                 </Col>
             </Row>
         </Container>
-    <img src={colorSharp} className="background-image-left" />
+    <img src={colorSharp} className="background-image-left" alt="backgroung-img" />
     </section>
 )
 
